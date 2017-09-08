@@ -11,11 +11,17 @@ print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')
 
 # while guessesTaken < 6:
 for guessesTaken in range(6):
-    print('Take a guess.')
+    # print('Take a guess.')
 
-    guess = input()
-    guess = int(guess)
-
+    # guess = input()
+    # guess = int(guess)
+    while True:
+        try:
+            guess = int(input('Take a guess. '))
+        except ValueError:
+            print('You must enter a number.')
+        else:
+            break
     # guessesTaken = guessesTaken + 1
     # guessesTaken += 1
 
