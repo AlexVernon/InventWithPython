@@ -17,7 +17,7 @@ for guessesTaken in range(6):
     guess = int(guess)
 
     # guessesTaken = guessesTaken + 1
-    guessesTaken += 1
+    # guessesTaken += 1
 
     if guess < number:
         print('Your guess is too low.')
