@@ -5,3 +5,4 @@ These are sample programs from Albert Sweigart's book *Invent Your Own Computer 
 ## Games
 
 1. Guess the Number `guess.py`
+1. Jokes `jokes.py`
